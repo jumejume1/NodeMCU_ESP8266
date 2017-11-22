@@ -22,6 +22,7 @@ void setup() {
   WiFi.begin(ssid,password);
 
   Serial.println();
+  
   Serial.print("Connecting");
 
   while( WiFi.status() != WL_CONNECTED ){
